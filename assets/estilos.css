@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.conference-container{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 44rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/ba1.jpg");
+    background-size: cover;
+}
+
+.place-image{
+    min-height: 24rem;
+    background-image: url("../img/honolulu.jpg");
+    background-size: cover;
+  }
+
+.conference-card{
+    max-height: 10rem;
+max-width: 32rem;
+text-align: right;
+margin-right: 4rem;
+margin-top: 4rem;
+}
+
+.form-container{
+    display: block;
+    margin: auto;
+    max-width: 45rem;
+    max-height: 20rem;
+    padding: 0;
+}
+
+#send-button {
+    border: none;
+    width: 45rem;
+    color: #f4fde6;
+    background-color: #96c93e;
+  }
+
+  .about-text {
+    margin: auto;
+    max-width: 45rem;
+    height: 8rem;
+  }
+
+  .speaker-card {
+    max-width: 18rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+
+footer {
+    margin-top: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 10rem;
+    background: rgb(29,57,71);
+    background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(29,70,92,1) 35%, rgba(31,82,113,1) 100%);
+}
+
+#footer-section {
+  margin-top: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: 10rem;
+  background: rgb(29,57,71);
+  background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(29,70,92,1) 35%, rgba(31,82,113,1) 100%);
+}
+
+#btn-tickets-erase, #btn-tickets-resume {
+  border: none;
+  width: 100%;
+  color: #f4fde6;
+  background-color: #96c93e;
+}
+
+#resultado{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #A7DBFF;
+}
